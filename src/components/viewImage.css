@@ -1,0 +1,25 @@
+.image-and-form {
+	margin: 3rem;
+}
+
+.input-and-submit {
+	display: flex;
+	justify-content: center;
+}
+
+#input {
+	border-radius: 15px;
+	border-style: solid;
+	border-color: black;
+	padding-left: 1rem;
+}
+
+#submit-button {
+	margin-left: 1rem;
+	font-size: 1rem;
+	border-radius: 15px;
+	border: none;
+	padding: 0.3rem 1rem 0.3rem 1rem;
+	background-color: navy;
+	color: white;
+}
