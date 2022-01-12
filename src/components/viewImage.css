@@ -20,6 +20,11 @@
 	border-radius: 15px;
 	border: none;
 	padding: 0.3rem 1rem 0.3rem 1rem;
-	background-color: navy;
-	color: white;
+	background-color: var(--accentcolor);
+	color: var(--textcolor);
+}
+
+#nasa-image {
+	width: 70vh;
+	height: auto;
 }

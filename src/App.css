@@ -1,9 +1,27 @@
+:root {
+	--accentcolor: orange;
+	--textcolor: white;
+}
 .header {
-	background-color: darkblue;
-	color: white;
-	border-radius: 15px;
-	font-size: 3.5rem;
-	text-align: center;
-	margin: 1rem;
+	font-size: 2.5rem;
+	font-weight: bold;
 	padding: 0.5rem;
+	text-align: center;
+	max-width: 20rem;
+}
+.description {
+	padding: 0.5rem;
+}
+.top {
+	flex: 1;
+}
+
+.topbox {
+	display: flex;
+	background-color: var(--accentcolor);
+	color: var(--textcolor);
+	border-radius: 15px;
+	margin: 1rem;
+	justify-content: center;
+	height: 7.5em;
 }

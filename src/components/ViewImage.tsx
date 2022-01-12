@@ -14,13 +14,13 @@ function ViewImage() {
 					type="text"
 					name="enter date"
 					id="input"
-					size={8}
+					placeholder="Enter date (YYYY-MM-DD)"
+					size={20}
 					maxLength={10}
 					onChange={handleInputChange}
 				/>
 				<button onClick={handleSubmit} id="submit-button">
-					{" "}
-					Submit{" "}
+					Submit
 				</button>
 			</div>
 			<ImageData day={passDay} />
