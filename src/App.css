@@ -10,7 +10,14 @@
 	max-width: 20rem;
 }
 .description {
-	padding: 0.5rem;
+	padding: 0.25rem 0.5rem;
+}
+#description-text {
+	max-width: 24rem;
+}
+.header-parent {
+	width: 50%;
+	margin: 0 auto;
 }
 .top {
 	flex: 1;

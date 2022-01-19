@@ -4,15 +4,13 @@
 	border-top-right-radius: 5px;
 	height: 100%;
 	background: #e0e0e0;
-	display: table-cell; /* Make elements inside the container behave like table cells */
 	float: right;
 	max-width: 11.5rem;
 }
 
 .logo img {
-	width: 9vh;
-	padding-left: 2rem;
-	padding-right: 2rem;
+	width: 66.667%;
+	padding: 0 16.667%;
 }
 
 .logo h3 {

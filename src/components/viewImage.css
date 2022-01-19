@@ -25,6 +25,6 @@
 }
 
 #nasa-image {
-	width: 70vh;
+	max-width: 100vh;
 	height: auto;
 }
